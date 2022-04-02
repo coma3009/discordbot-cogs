@@ -26,7 +26,6 @@ class Core(commands.Cog, name = "봇 기본 명령어", description = "봇 기�
     async def mod(self, ctx):
         embed=discord.Embed(title="개발자",color=0x0000ff)
         embed.add_field(name="메인개발자", value="Coma#3009")
-        embed.add_field(name="보조개발자", value="근태#5863")
         await ctx.send(embed=embed)
     @commands.command(
         name = "핑"
